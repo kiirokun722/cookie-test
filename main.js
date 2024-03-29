@@ -1,5 +1,4 @@
-document.cookie = "name=oeschger";
-document.cookie = "favorite_food=tripe";
+document.cookie = "text=$(input)";
 function alertCookie() {
   alert(document.cookie);
 }
